@@ -44,7 +44,7 @@
     "winston-daily-rotate-file": "^1.7.2"
   },
   "devDependencies": {
-    "open": "0.0.5",
+    "open": "6.0.0",
     "babel-cli": "^6.24.0",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^6.4.0",
