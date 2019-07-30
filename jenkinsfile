@@ -2,18 +2,19 @@ pipeline{
   agent any
   
    stages {
-        stage ('install stage')
+     
+        stage ('install_stage')
           steps {
-                withGit (git : 'Default'){
+                           echo 'first jenkins '
                         sh 'npm i'
-                 }
+                 
                  
             }
-            stage ('start project')
+            stage ('start_roject')
             steps {
-                withGit (git : 'Default'){
+                        echo 'project'
                         sh 'npm start'
-                 }
+                 
                  
             }
             
