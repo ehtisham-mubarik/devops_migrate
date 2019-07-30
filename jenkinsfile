@@ -1,0 +1,22 @@
+pipeline{
+  agent any
+  
+   stages {
+        stage ('install stage')
+          steps {
+                withGit (git : 'Default'){
+                        sh 'npm i'
+                 }
+                 
+            }
+            stage ('start project')
+            steps {
+                withGit (git : 'Default'){
+                        sh 'npm i'
+                 }
+                 
+            }
+            
+          }
+     }
+            
