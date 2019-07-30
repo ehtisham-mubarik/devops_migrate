@@ -58,7 +58,7 @@
     "compression": "^1.6.2",
     "continuation-local-storage": "^3.1.7",
     "cors": "^2.8.4",
-    "ejs": "2.4.1",
+    "ejs": "2.5.5",
     "express": "^4.13.4",
     "express-mysql-session": "^1.0.0",
     "express-session": "^1.13.0",
