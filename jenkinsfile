@@ -12,7 +12,7 @@ pipeline{
             stage ('start project')
             steps {
                 withGit (git : 'Default'){
-                        sh 'npm i'
+                        sh 'npm start'
                  }
                  
             }
