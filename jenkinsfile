@@ -3,19 +3,21 @@ pipeline{
   
    stages {
      
-        stage ('install_stage')
+        stage ('install_stage'){
           steps {
                            echo 'first jenkins '
                         sh 'npm i'
                  
                  
             }
-            stage ('start_roject')
+            }
+            stage ('start_roject'){
             steps {
                         echo 'project'
                         sh 'npm start'
                  
                  
+            }
             }
             
           }
