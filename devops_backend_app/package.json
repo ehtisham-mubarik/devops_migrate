@@ -59,7 +59,7 @@
     "continuation-local-storage": "^3.1.7",
     "cors": "^2.8.4",
     "ejs": "2.5.5",
-    "express": "^4.13.4",
+    "express": "^4.17.3",
     "express-mysql-session": "^1.0.0",
     "express-session": "^1.13.0",
     "flow-bin": "^0.45.0",
